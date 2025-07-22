@@ -25,12 +25,12 @@ def main():
     f = 77
     k = 298.15
 
-    print(f"{c}°C to Fahrenheit: {celsius_to_fahrenheit(c):.2f}°F")
-    print(f"{f}°F to Celsius: {fahrenheit_to_celsius(f):.2f}°C")
-    print(f"{c}°C to Kelvin: {celsius_to_kelvin(c):.2f}K")
-    print(f"{k}K to Celsius: {kelvin_to_celsius(k):.2f}°C")
-    print(f"{f}°F to Kelvin: {fahrenheit_to_kelvin(f):.2f}K")
-    print(f"{k}K to Fahrenheit: {kelvin_to_fahrenheit(k):.2f}°F")
+    print(f"{c}°C to Fahrenheit: {celsius_to_fahrenheit(c)}°F")
+    print(f"{f}°F to Celsius: {fahrenheit_to_celsius(f)}°C")
+    print(f"{c}°C to Kelvin: {celsius_to_kelvin(c)}K")
+    print(f"{k}K to Celsius: {kelvin_to_celsius(k)}°C")
+    print(f"{f}°F to Kelvin: {fahrenheit_to_kelvin(f)}K")
+    print(f"{k}K to Fahrenheit: {kelvin_to_fahrenheit(k)}°F")
 
 
 if __name__ == "__main__":
